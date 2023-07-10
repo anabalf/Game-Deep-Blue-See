@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+<body>
+
+    <div id="start-panel">
+        <h1>Deep Blue See</h1>
+        <p>Instructions:</p>
+        <ul >
+          <li class="keyboard">Move from rigth to left with your keyboard</li>
+          <li class="fish">Eat the fish to increase your score</li>
+          <li class="hook">Don't get caught!</li>
+          <li class="shark">Beware of the shark!</li>
+        </ul>
+        <button id="start-btn">Click to PLAY</button>
+    </div>
+
+    <div class="canvas-container">
+    <canvas id="main-canvas" width="600" height="800"></canvas>
+    </div>  
+
+    <div id="game-over-panel">
+        <h1>Game Over</h1>
+        <p>Your Score: <span id="score"></span></p> 
+        <button id="restart-btn">Restart</button>
+    </div>
+
+    <script src="/assets/js/constants.js"></script>
+    <script src="/assets/js/models/background.js"></script>
+    <script src="/assets/js/models/background2.js"></script>
+    <script src="assets/js/models/player.js"></script>
+    <script src="/assets/js/models/enemy.js"></script>
+    <script src="/assets/js/models/shark.js"></script>
+    <script src="/assets/js/models/food.js"></script>
+    <script src="/assets/js/models/heart.js"></script>
+    <script src="/assets/js/models/game.js"></script>
+    <script src="/assets/js/index.js"></script>
+
+</body>
+</html>
