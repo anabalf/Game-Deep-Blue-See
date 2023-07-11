@@ -25,6 +25,7 @@ class Game {
         this.extraLifeAudio = new Audio("/assets/audio/extralife.mp3");
         this.quitLifeAudio = new Audio("/assets/audio/oof.mp3");
         this.gameOverAudio = new Audio("/assets/audio/gameover.mp3");
+        this.audio.volume = 0.05;
         
     
         this.tick = 0;
